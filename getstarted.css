@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  background-image:linear-gradient(rgba(17, 34, 42, 0.55),rgba(5, 2, 41, 0.87)),url(teacher.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.box{
+  position: relative;
+  top: 13%;
+  left:6%;
+
+  min-width: 61%;
+  padding: 0px;
+  background: rgba(45, 25, 27, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgb(5, 255, 237);
+  
+  border-radius: 20px 40px 20px 40px;
+  max-width: 87%;
+  min-height: 74%;
+}
+
+.logo h1 a{
+  text-decoration: none;
+  float: left;
+  width: 5px;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 0%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(11, 255, 184);
+  position: absolute;
+}
+
+.logo h1 a:hover{
+  color: rgba(255, 233, 0, 0.92);
+  transition: .5s;
+  font-size: 58px;
+}
+
+
+
+
+
+.area{
+  border: 0px solid grey;
+  float: left;
+  display: inline-block;
+  margin-left: 12px;
+  min-width: 32%;
+  margin-top: 22px;
+  position: relative;
+  height: 600px;
+  padding: 2px;
+}
+
+.area img{
+  width:525px;
+  border: 1px solid #00000014;
+  border-radius: 24%;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.area{
+  text-align: center;
+}
+
+.area h1 a{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:rgba(254, 188, 0, 0.81);
+}
+
+.area h1 a:hover{
+  transition: .6s;
+  color: rgb(0, 255, 218);
+  font-size: 30px;
+}
+
+.area h3{
+  color:#acf1fc;
+}
+
+
+#clear{
+  clear: both;
+}
+
+.Footer{
+  border: 1px solid #1eb19cd1;
+  background-color: rgba(70, 237, 188, 0.66);
+  height: 10%;
+  width: 100%;
+
+
+  top: 100%;
+  position: absolute;
+}
+
+
+.Footer p{
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+}

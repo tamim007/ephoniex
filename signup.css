@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  background-image:linear-gradient(rgba(17, 34, 42, 0.55),rgba(69, 16, 27, 0.42)),url(signup.jpg);
+  background-size: cover;
+
+  height: 100vh;
+  background-position: center;
+}
+
+.logo h1 a{
+  text-decoration: none;
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-left: 3%;
+  margin-top: 0%;
+  font-size: 56px;
+  font-weight: bolder;
+  color: rgb(11, 255, 184);
+  position: relative;
+}
+
+.logo h1 a:hover{
+  color: rgba(255, 233, 0, 0.92);
+  transition: .5s;
+  font-size: 58px;
+}
+
+
+
+
+.box{
+  position: relative;
+  top: 23%;
+  left:35%;
+
+  width: 34%;
+  padding: 56px;
+  background: rgba(45, 25, 27, 0.65);
+  box-sizing: border-box;
+  box-shadow:0 15px 25px rgb(0, 238, 255);
+  
+  border-radius: 20px 40px 20px 40px;
+  max-width: 94%;
+  max-height: 68%;
+}
+
+.box h2{
+  margin:0 0 30px;
+  padding: 5px;
+  color: #05ffed;
+  text-align: center;
+  font-size: 40px;
+  font-weight: inherit;
+  margin-right: 37%;
+}
+
+.box .input-box{
+  position: relative;
+}
+
+.box .input-box input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #00ffec;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: #0000;
+}
+
+.box .input-box label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+  transition: .5s;
+}
+
+
+.box .input-box input:focus ~ label,
+.box .input-box input:valid ~ label{
+  top:-30px;
+  left: 0;
+  color: white;
+  font-size: 22px;
+}
+
+.box input[type="submit"]{
+  background: transparent;
+  border:none;
+  outline:none;
+  color: white;
+  background: #07b6a3fa;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px 6px 2px 6px;
+  font-size: 19px;
+}
+
+.box input[type="submit"]:hover{
+  background-color: rgba(0, 255, 254, 0.92);
+  box-shadow: 0px 0px 25px #00ffe3;
+  transition: .6s;
+
+  font-size: 22px;
+}
+
+.Footer{
+  border: 1px solid #1eb19cd1;
+  background-color: rgba(70, 237, 188, 0.65);
+  height: 10%;
+  width: 100%;
+
+
+  top: 100%;
+  position: absolute;
+}
+
+
+.Footer p{
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+}

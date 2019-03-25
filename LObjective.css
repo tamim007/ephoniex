@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  background-image:linear-gradient(rgba(17, 34, 42, 0.55),rgba(5, 2, 41, 0.87)),url(aa.jpg);
+  background-size: cover;
+
+  height: 100vh;
+  background-position: center;
+}
+
+.box{
+  position: relative;
+  top: 13%;
+  left:6%;
+
+  min-width: 56%;
+  padding: 0px;
+  background: rgba(45, 25, 27, 0.6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgb(5, 238, 255);
+
+  border-radius: 20px 20px 20px 20px;
+  max-width: 83%;
+  min-height: 74%;
+}
+
+.logo h1 a{
+  text-decoration: none;
+  float: left;
+  width: 5px;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 0%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(11, 255, 184);
+  position: absolute;
+}
+
+.logo h1 a:hover{
+  color: rgba(255, 233, 0, 0.92);
+  transition: .5s;
+  font-size: 58px;
+}
+
+
+
+
+
+
+
+
+
+.logo h1 a{
+  text-decoration: none;
+  float: left;
+  width: 5px;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 0%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(11, 255, 184);
+  position: absolute;
+}
+
+.logo h1 a:hover{
+  color: rgba(255, 233, 0, 0.92);
+  transition: .5s;
+}
+
+
+
+
+
+
+
+.logo h1 a{
+  text-decoration: none;
+  float: left;
+  width: 5px;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 0%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(11, 255, 184);
+  position: absolute;
+}
+
+.logo h1 a:hover{
+  color: rgba(255, 233, 0, 0.92);
+  transition: .5s;
+}
+
+
+
+
+.WHY{
+  
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 47%;
+  min-height: 31%;
+  margin-left: 1%;
+  margin-top: 4%;
+  position: relative;
+}
+
+.WHY img{
+  width: 98%;
+  border: 1px solid #0000;
+  border-radius: 7%;
+  margin-top: 6%;
+  min-height: 40%;
+}
+
+.WHY h1{
+  color:#ffb300;
+  font-size: 31px;
+}
+
+.WHY h3{
+    color:#0ac9cf;
+    font-size: 17px;
+
+    text-align: justify;
+  }
+
+.WHY h4{
+  color:#68fff9;
+  font-size: 17px;
+  text-align: justify;
+}
+
+
+
+
+
+#clear{
+  clear: both;
+}
+
+
+.Footer{
+  border: 1px solid #1eb19cd1;
+  background-color: rgba(70, 237, 188, 0.66);
+  height: 10%;
+  width: 100%;
+
+
+  top: 100%;
+  position: absolute;
+}
+
+
+.Footer p{
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+}
